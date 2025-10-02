@@ -1,0 +1,85 @@
+/* Container for the entire auth page */
+.auth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #c91010;  
+  font-family: Arial, sans-serif;
+}
+
+/* Box containing the form */
+.auth-box {
+  width: 350px;
+  padding: 30px;
+
+}
+
+/* Heading */
+.auth-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #140c0c;
+}
+
+/* Form elements */
+.auth-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.auth-box input {
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color:rgb(222, 222, 223);
+  color: black;
+  
+}
+
+/* Submit button */
+.auth-box button[type="submit"] {
+  padding: 10px;
+  background-color: #681E23;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ 
+}
+
+.auth-box button[type="submit"]:hover {
+  background-color: #2C0F12;
+}
+
+/* Google login button */
+.google-btn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background-color: pink;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.google-btn:hover {
+  background-color: #33c11d;
+}
+
+/* Toggle link */
+.auth-box .link {
+  margin-top: 15px;
+  text-align: center;
+  color: #681E23;
+  cursor: pointer;
+}
+
+.auth-box .link:hover {
+  text-decoration: underline;
+}
+input{
+  border: 3px solid #7c4795;
+}
